@@ -1,3 +1,15 @@
+---
+title: Instagram Analytics Dashboard
+emoji: 📸
+colorFrom: orange
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.41.0
+app_file: app.py
+pinned: false
+license: other
+---
+
 # 📸 Instagram User Engagement Analytics & Big Data Visualization Dashboard
 
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)

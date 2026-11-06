@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.vscode/
+.idea/
+*.db
+*.sqlite
+reports/
+tests/
+.pytest_cache/
+Instagram_Analytics_Presentation.pptx
