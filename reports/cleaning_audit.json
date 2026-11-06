@@ -1,0 +1,19 @@
+{
+    "initial_row_count": 29999,
+    "final_row_count": 29999,
+    "records_dropped": 0,
+    "duplicate_rows_removed": 0,
+    "duplicate_post_ids_removed": 0,
+    "invalid_timestamps_dropped": 0,
+    "negative_values_corrected": 0,
+    "reach_impressions_inconsistencies_rectified": 0,
+    "cleaning_operations": [
+        "Column names standardized to lowercase snake_case",
+        "Duplicate check executed across entire dataset and post_id",
+        "post_datetime parsed into canonical pd.Timestamp",
+        "Derived post_date, post_hour, and day_of_week harmonized with post_datetime",
+        "Strict integer casting applied to engagement metrics and counts",
+        "Categorical strings stripped and standardized",
+        "Preserved legitimate viral and high-engagement records without synthetic clipping"
+    ]
+}

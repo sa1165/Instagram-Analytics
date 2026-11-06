@@ -1,0 +1,159 @@
+{
+    "dataset_total_rows": 29999,
+    "total_missing_values": 0,
+    "missing_by_column": {
+        "post_id": 0,
+        "account_id": 0,
+        "account_type": 0,
+        "follower_count": 0,
+        "media_type": 0,
+        "content_category": 0,
+        "traffic_source": 0,
+        "has_call_to_action": 0,
+        "post_datetime": 0,
+        "post_date": 0,
+        "post_hour": 0,
+        "day_of_week": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saves": 0,
+        "reach": 0,
+        "impressions": 0,
+        "engagement_rate": 0,
+        "followers_gained": 0,
+        "caption_length": 0,
+        "hashtags_count": 0,
+        "performance_bucket_label": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_post_ids": 0,
+    "negative_values": {
+        "follower_count": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "saves": 0,
+        "reach": 0,
+        "impressions": 0,
+        "engagement_rate": 0,
+        "followers_gained": 0,
+        "caption_length": 0,
+        "hashtags_count": 0
+    },
+    "logical_issues": {
+        "impressions_less_than_reach": 0,
+        "invalid_cta_binary": 0,
+        "invalid_timestamps": 0,
+        "date_column_mismatch": 0,
+        "hour_column_mismatch": 0,
+        "weekday_column_mismatch": 0
+    },
+    "invalid_categorical": {
+        "account_type": 0,
+        "media_type": 0,
+        "performance_bucket_label": 0
+    },
+    "outliers_iqr": {
+        "follower_count": {
+            "q1": 5824.0,
+            "q3": 10739.0,
+            "iqr": 4915.0,
+            "lower_bound": -1548.5,
+            "upper_bound": 18111.5,
+            "outlier_count": 2944,
+            "outlier_percentage": 9.81
+        },
+        "likes": {
+            "q1": 104.0,
+            "q3": 363.0,
+            "iqr": 259.0,
+            "lower_bound": -284.5,
+            "upper_bound": 751.5,
+            "outlier_count": 1891,
+            "outlier_percentage": 6.3
+        },
+        "comments": {
+            "q1": 3.0,
+            "q3": 11.0,
+            "iqr": 8.0,
+            "lower_bound": -9.0,
+            "upper_bound": 23.0,
+            "outlier_count": 1854,
+            "outlier_percentage": 6.18
+        },
+        "shares": {
+            "q1": 5.0,
+            "q3": 19.0,
+            "iqr": 14.0,
+            "lower_bound": -16.0,
+            "upper_bound": 40.0,
+            "outlier_count": 1658,
+            "outlier_percentage": 5.53
+        },
+        "saves": {
+            "q1": 15.0,
+            "q3": 54.0,
+            "iqr": 39.0,
+            "lower_bound": -43.5,
+            "upper_bound": 112.5,
+            "outlier_count": 1888,
+            "outlier_percentage": 6.29
+        },
+        "reach": {
+            "q1": 3058.0,
+            "q3": 7863.0,
+            "iqr": 4805.0,
+            "lower_bound": -4149.5,
+            "upper_bound": 15070.5,
+            "outlier_count": 1620,
+            "outlier_percentage": 5.4
+        },
+        "impressions": {
+            "q1": 4102.0,
+            "q3": 10620.5,
+            "iqr": 6518.5,
+            "lower_bound": -5675.75,
+            "upper_bound": 20398.25,
+            "outlier_count": 1623,
+            "outlier_percentage": 5.41
+        },
+        "engagement_rate": {
+            "q1": 0.024,
+            "q3": 0.057,
+            "iqr": 0.033,
+            "lower_bound": -0.025500000000000002,
+            "upper_bound": 0.10650000000000001,
+            "outlier_count": 354,
+            "outlier_percentage": 1.18
+        },
+        "followers_gained": {
+            "q1": 251.0,
+            "q3": 755.0,
+            "iqr": 504.0,
+            "lower_bound": -505.0,
+            "upper_bound": 1511.0,
+            "outlier_count": 0,
+            "outlier_percentage": 0.0
+        },
+        "caption_length": {
+            "q1": 113.0,
+            "q3": 127.0,
+            "iqr": 14.0,
+            "lower_bound": 92.0,
+            "upper_bound": 148.0,
+            "outlier_count": 288,
+            "outlier_percentage": 0.96
+        },
+        "hashtags_count": {
+            "q1": 6.0,
+            "q3": 10.0,
+            "iqr": 4.0,
+            "lower_bound": 0.0,
+            "upper_bound": 16.0,
+            "outlier_count": 105,
+            "outlier_percentage": 0.35
+        }
+    },
+    "status": "PASSED"
+}

@@ -1,0 +1,51 @@
+{
+    "dataset_rows": 29999,
+    "total_accounts": 20,
+    "total_posts": 29999,
+    "total_likes": 8629320,
+    "total_comments": 255649,
+    "total_shares": 432784,
+    "total_saves": 1275476,
+    "total_interactions": 10593229,
+    "total_reach": 188167991,
+    "total_impressions": 254000108,
+    "total_followers_gained": 15064082,
+    "avg_engagement_rate_reach": 0.05616687889596319,
+    "avg_engagement_rate_impressions": 0.04210730357678589,
+    "media_type_distribution": {
+        "image": 11927,
+        "carousel": 10627,
+        "reel": 7445
+    },
+    "account_type_distribution": {
+        "creator": 20944,
+        "brand": 9055
+    },
+    "content_category_distribution": {
+        "Photography": 3035,
+        "Fashion": 3034,
+        "Technology": 3025,
+        "Lifestyle": 3017,
+        "Food": 3010,
+        "Fitness": 3004,
+        "Music": 3003,
+        "Travel": 2968,
+        "Beauty": 2953,
+        "Comedy": 2950
+    },
+    "traffic_source_distribution": {
+        "Home Feed": 5069,
+        "Hashtags": 5063,
+        "Reels Feed": 5026,
+        "External": 5005,
+        "Profile": 4962,
+        "Explore": 4874
+    },
+    "engagement_rate_study": {
+        "correlation_with_reach_denominator": 0.9758689725600719,
+        "correlation_with_impressions_denominator": 1.0,
+        "mean_absolute_error_vs_reach": 0.014059575319177306,
+        "mean_absolute_error_vs_impressions": 0.0,
+        "deduction": "The dataset's original 'engagement_rate' column was calculated using Impressions as the denominator (Total Interactions / Impressions), matching with a Pearson correlation of 1.000000 and virtually 0 error. In social media analytics, practitioners distinguish between Reach-based engagement rate (Total Interactions / Reach) and Impression-based engagement rate. Both metrics are preserved and made explicitly selectable throughout the application."
+    }
+}
